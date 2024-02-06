@@ -19,3 +19,19 @@ students can perform as the teacher.
 • We introduce a knowledge distillation approach with an ensemble of lightweight student models for chest x-ray diagnosis.<br>
 • We present a method where the knowledge distillation is performed not only with the help of the teacher model but also taking help from the fellow student models. To do this, we introduce a novel ensemble loss..<br>
 • We introduce a loss utilizing the feature maps of the teacher and each student model to help the knowledge distillation process..<br>
+
+## Ensemble of Students
+We introduce an ensemble of lightweight student models to
+perform knowledge distillation. The ensemble contains four
+students with two MobileNet-v2s and two ShuffleNet-v2s.
+These architectures reduce the computational load, making
+them ideal for resource-constrained environments. Like the
+teacher model, each student model has customized FC layers.
+One MobileNet-v2 has got three FC layers containing
+1024, 1024, and the final classification layer (containing
+neurons equal to the number of classes in the dataset), respectively.
+One ShuffleNet-v2 has got similar architectural
+modifications. Another MobileNet-v2 has got three FC layers
+containing 1024, 512, and the final classification layer,
+respectively. The other ShuffleNet-v2 has got architectural
+modifications similar to the above.
