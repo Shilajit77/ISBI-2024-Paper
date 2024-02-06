@@ -55,5 +55,8 @@ This is done because if No Finding is not the top prediction,
 it is likely that the input image has got some abnormalities.
 <p align="center">
   <img src="images/ensem.png" alt="Ensemble model" width="500"/><br>
-  <em>Fig: FC layers of students</em>
+  <em>Fig: A block diagram for the inference process. Each test
+image is applied to every student model. Subsequently, each
+student model’s predicted class probabilities (light blue arrow)
+are averaged to obtain the final prediction.</em>
 </p><be><br>
