@@ -76,4 +76,9 @@ Hence, our ensemble takes 90.59% percent less BFLOPs than
 ResNet-101 alone. Thus, the proposed ensemble can significantly
 reduce the computation during inference and can be
 beneficial for deployment in resource-constrained environments.
-
+<p align="center">
+  <img src="images/img_res.jpg" alt="Ensemble model" width="500"/><br>
+  <em>Fig:Classification performance of the proposed method
+on sample chest x-ray images from the NIHChestXray14
+dataset. (Green: Correct diagnosis, Red: Incorrect diagnosis).</em>
+</p><be><br>
