@@ -38,4 +38,22 @@ modifications similar to the above.
 <p align="center">
   <img src="images/students.jpg" alt="Ensemble model" width="500"/><br>
   <em>Fig: FC layers of students</em>
-</p><br>
+</p><be><br>
+  
+## Inference through ensemble
+Inference is performed through a voting mechanism by the
+ensemble of student models. We average the class probabilities
+from the four student models for each class. We take top k classes as the predicted classes. For a
+test image, if the predicted highest probability is for No Finding,
+we consider No Finding as the output label. This is done
+because, if No Finding is the most likely label, the input images
+may not have any abnormalities present. If No Finding
+is not the prediction with the highest probability but is present
+in the top k predictions, we discard No Finding and include
+the (k + 1)th top prediction in the list of top k predictions.
+This is done because if No Finding is not the top prediction,
+it is likely that the input image has got some abnormalities.
+<p align="center">
+  <img src="images/ensem.png" alt="Ensemble model" width="500"/><br>
+  <em>Fig: FC layers of students</em>
+</p><be><br>
