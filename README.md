@@ -81,4 +81,9 @@ beneficial for deployment in resource-constrained environments.
   <em>Fig:Classification performance of the proposed method
 on sample chest x-ray images from the NIHChestXray14
 dataset. (Green: Correct diagnosis, Red: Incorrect diagnosis).</em>
-</p><be><br>
+</p><be><be>
+  
+## Requirements: 
+1. Python 3.8. <br>
+2. PyTorch 2.0. <br>
+
