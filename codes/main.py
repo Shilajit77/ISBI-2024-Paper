@@ -618,17 +618,17 @@ for i in range(200):
 
 
         if(np.mean(roc_auc_scores1)>best1):
-                torch.save(smodel1.state_dict(),'models/modi_s1.pth')
+                torch.save(smodel1.state_dict(),'models/mod_s1.pth')
                 best1 = np.mean(roc_auc_scores1)
 
         if(np.mean(roc_auc_scores2)>best2):
-                torch.save(smodel2.state_dict(),'models/modi_s2.pth')
+                torch.save(smodel2.state_dict(),'models/mod_s2.pth')
                 best2 = np.mean(roc_auc_scores2)
         if(np.mean(roc_auc_scores3)>best3):
-                torch.save(smodel3.state_dict(),'models/modi_s3.pth')
+                torch.save(smodel3.state_dict(),'models/mod_s3.pth')
                 best3 = np.mean(roc_auc_scores3)
         if(np.mean(roc_auc_scores4)>best4):
-                torch.save(smodel4.state_dict(),'models/modi_s4.pth')
+                torch.save(smodel4.state_dict(),'models/mod_s4.pth')
                 best4 = np.mean(roc_auc_scores4)
 
 
