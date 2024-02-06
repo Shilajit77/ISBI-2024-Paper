@@ -35,3 +35,6 @@ modifications. Another MobileNet-v2 has got three FC layers
 containing 1024, 512, and the final classification layer,
 respectively. The other ShuffleNet-v2 has got architectural
 modifications similar to the above.
+<p align="center">
+  <img src="images/students.jpg" alt="Ensemble model" width="500"/><br>
+ </p><br>
