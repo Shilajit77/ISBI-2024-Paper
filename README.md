@@ -16,6 +16,6 @@ chest x-ray diagnosis show that the ensemble of well-trained
 students can perform as the teacher.
 
 ## Major Highlights:
-• We introduce a knowledge distillation approach with an ensemble of lightweight student models for chest x-ray diagnosis.
-• We present a method where the knowledge distillation is performed not only with the help of the teacher model but also taking help from the fellow student models. To do this, we introduce a novel ensemble loss.
-• We introduce a loss utilizing the feature maps of the teacher and each student model to help the knowledge distillation process.
+• We introduce a knowledge distillation approach with an ensemble of lightweight student models for chest x-ray diagnosis.<br>
+• We present a method where the knowledge distillation is performed not only with the help of the teacher model but also taking help from the fellow student models. To do this, we introduce a novel ensemble loss..<br>
+• We introduce a loss utilizing the feature maps of the teacher and each student model to help the knowledge distillation process..<br>
