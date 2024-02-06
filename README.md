@@ -60,3 +60,20 @@ image is applied to every student model. Subsequently, each
 student model’s predicted class probabilities (light blue arrow)
 are averaged to obtain the final prediction.</em>
 </p><be><br>
+  
+## Computational Load Reduction:
+We also evaluate the number of computations required
+during inference in terms of BFLOPs per test image. For
+the teacher model (DenseNet-121), the required computation
+during inference is 2.90 BFLOPs. On the other hand, a
+MobileNet-v2 takes 0.33 BFLOPs, and ShuffleNet-v2 takes
+0.04 BFLOPs. Our ensemble of students consists of four
+models, including two MobileNet-v2s and two ShuffleNetv2s.
+Hence, considering all four student models, the ensemble
+takes 74.48% less operation compared to the DenseNet-121
+alone. The ResNet-101 takes 7.87 BFLOPs during inference.
+Hence, our ensemble takes 90.59% percent less BFLOPs than
+ResNet-101 alone. Thus, the proposed ensemble can significantly
+reduce the computation during inference and can be
+beneficial for deployment in resource-constrained environments.
+
