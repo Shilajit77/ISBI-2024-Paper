@@ -37,4 +37,5 @@ respectively. The other ShuffleNet-v2 has got architectural
 modifications similar to the above.
 <p align="center">
   <img src="images/students.jpg" alt="Ensemble model" width="500"/><br>
- </p><br>
+  <em>Students collaborating on the ensemble model</em>
+</p><br>
