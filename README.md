@@ -1,5 +1,5 @@
 # ISBI_2024_Paper: AN ENSEMBLE OF WELL-TRAINED STUDENTS CAN PERFORM ALMOST AS GOOD AS A TEACHER FOR CHEST X-RAY DIAGNOSIS
-
+### Paper link: Will be updated....
 Knowledge distillation can help in generating computationally
 lightweight student models for various tasks. However,
 such students often show inferior performances compared
